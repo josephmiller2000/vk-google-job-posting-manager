@@ -144,6 +144,30 @@ class VGJPM_Custom_Field_Job_Post extends VK_Custom_Field_Builder {
 				'description' => '',
 				'required'    => false,
 			),
+			'vkjp_educationRequirements'         => array(
+				'label'       => __( 'Education Requirement', 'vk-google-job-posting-manager' ),
+				'type'        => 'text',
+				'description' => 'Enter Education Qualification Requirement',
+				'required'    => false,
+			),
+			'vkjp_experienceRequirements'         => array(
+				'label'       => __( 'Experience Requirements', 'vk-google-job-posting-manager' ),
+				'type'        => 'text',
+				'description' => 'Choose either fresher or experienced one',
+				'required'    => false,
+			),
+			'vkjp_industry'         => array(
+				'label'       => __( 'Industry Information', 'vk-google-job-posting-manager' ),
+				'type'        => 'text',
+				'description' => 'Government Jobs Or Private Jobs',
+				'required'    => false,
+			),
+			'vkjp_qualifications'         => array(
+				'label'       => __( 'Education Qualifications', 'vk-google-job-posting-manager' ),
+				'type'        => 'text',
+				'description' => 'Educational Qualification, this is same as Educational Requirement',
+				'required'    => false,
+			),
 			'vkjp_jobLocationType'        => array(
 				'label'       => __( 'Remote Work', 'vk-google-job-posting-manager' ),
 				'type'        => 'checkbox',
